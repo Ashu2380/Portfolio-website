@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asharam Saini - Full Stack Developer</title>
+    <meta name="description" content="Asharam Saini - Entry-level Full Stack Developer with expertise in Java, OOP, and modern web technologies">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal-styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Asharam <span>Saini</span></a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#training" class="nav-link">Training</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3>Hello, I'm</h3>
+                    <h1 class="typing-animation">Asharam Saini</h1>
+                    <h2 class="role-animation">Full Stack Developer</h2>
+                    <p class="hero-description">
+                        Entry-level full stack developer with expertise in Java, OOP, and modern web technologies. 
+                        Passionate about building simple and useful web applications with a focus on user experience.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="assets/Asharam-Saini-Resume.pdf" download class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Ashu2380" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/asharam-saini/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:asharamsaini2380@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+916350395820" title="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="floating-icons">
+                            <i class="fab fa-java icon-java"></i>
+                            <i class="fab fa-js icon-js"></i>
+                            <i class="fab fa-react icon-react"></i>
+                            <i class="fab fa-node-js icon-node"></i>
+                        </div>
+                        <img src="images/profile-photo.jpg" alt="Asharam Saini" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-text">Scroll Down</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know more about who I am and what I do</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>I'm a passionate Full Stack Developer</h3>
+                    <p>
+                        As an entry-level full stack developer, I bring fresh perspectives and enthusiasm to every project. 
+                        With a solid foundation in Java, OOP principles, and modern web technologies, I specialize in 
+                        creating efficient, user-friendly web applications.
+                    </p>
+                    <p>
+                        I'm a fast learner who thrives in Agile work environments and enjoys collaborating with teams 
+                        to build innovative solutions. My experience spans both frontend and backend development, 
+                        allowing me to contribute to all aspects of web application development.
+                    </p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Rajasthan, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Age:</span>
+                            <span class="info-value">20 Years</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Languages:</span>
+                            <span class="info-value">English, Hindi</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Interests:</span>
+                            <span class="info-value">Cricket, Volleyball, Technology</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="5">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">Technologies Learned</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">Commitment %</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <p>Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Technologies -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Bootstrap</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Technologies -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">GitHub</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Express.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Some of my recent work and personal projects</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="salesforce">Salesforce</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- E-Commerce Project -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="images/ecommerce-project.png" alt="E-Commerce Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="ecommerce">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com/Ashu2380" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>Full-stack e-commerce application built with MERN stack featuring user authentication, shopping cart, and secure payments.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express.js</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Simon Says Game -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="images/simon-game.jpeg" alt="Simon Says Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="simon">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com/Ashu2380" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Simon Says Memory Game</h3>
+                        <p>Interactive memory game with dynamic visual feedback, random sequence generation, and user input handling.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event Management System -->
+                <div class="project-card" data-category="salesforce">
+                    <div class="project-image">
+                        <img src="images/event-management.png" alt="Event Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="event">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com/Ashu2380" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Event Management System</h3>
+                        <p>Salesforce-based application for managing events, registrations, schedules, and participant data efficiently.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Salesforce</span>
+                            <span class="tech-tag">Apex</span>
+                            <span class="tech-tag">Lightning</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hospital Management System -->
+                <div class="project-card" data-category="salesforce">
+                    <div class="project-image">
+                        <img src="images/hospital-management.png" alt="Hospital Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="hospital">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com/Ashu2380" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Hospital Management System</h3>
+                        <p>Comprehensive Salesforce application for managing patient records, appointments, and hospital operations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Salesforce</span>
+                            <span class="tech-tag">Apex</span>
+                            <span class="tech-tag">SOQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education & Achievements</h2>
+                <p>My academic journey and accomplishments</p>
+            </div>
+            
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024 - Present</div>
+                        <h3>Bachelor of Technology</h3>
+                        <h4>Information Technology</h4>
+                        <p class="institution">Arya College of Engineering & IT, Jaipur</p>
+                        <p class="description">Currently pursuing B.Tech in Information Technology with a focus on modern software development practices and emerging technologies.</p>
+                        <div class="achievement">
+                            <i class="fas fa-trophy"></i>
+                            <span>CGPA: 9.0</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h3>Senior Secondary Education</h3>
+                        <h4>Science Stream</h4>
+                        <p class="institution">Tilak Bhai Vidhyapeeth School, Malpura</p>
+                        <p class="description">Completed 12th grade with Science stream, focusing on Physics, Chemistry, and Mathematics.</p>
+                        <div class="achievement">
+                            <i class="fas fa-medal"></i>
+                            <span>Percentage: 83.80%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2020</div>
+                        <h3>Secondary Education</h3>
+                        <h4>10th Grade</h4>
+                        <p class="institution">Aman Deep Vidhyapeeth School, Sanvariya</p>
+                        <p class="description">Completed secondary education with excellent academic performance and extracurricular participation.</p>
+                        <div class="achievement">
+                            <i class="fas fa-star"></i>
+                            <span>Percentage: 86%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4>Academic Excellence</h4>
+                    <p>2nd position in academic performance during 4th semester of B.Tech</p>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h4>School Rank</h4>
+                    <p>Achieved 2nd rank in entire school during 10th grade board examinations</p>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-volleyball-ball"></i>
+                    </div>
+                    <h4>Sports Achievement</h4>
+                    <p>District-level Volleyball Participant in 64th School Sports Competition</p>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h4>Cultural Excellence</h4>
+                    <p>Secured 70% in Akhil Bharatiya Sanskrit Gyan Pariksha (2012)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="training" class="training">
+        <div class="container">
+            <div class="section-title">
+                <h2>Training & Certifications</h2>
+                <p>Professional development and skill enhancement</p>
+            </div>
+            
+            <div class="training-grid">
+                <div class="training-card">
+                    <div class="training-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="training-content">
+                        <h3>Cyber Security Training</h3>
+                        <p class="training-provider">TechForce Academy, Australia</p>
+                        <p class="training-duration">May 2025 - Jul 2025</p>
+                        <p class="training-description">
+                            Comprehensive training in cybersecurity fundamentals, threat analysis, 
+                            and security best practices for modern applications.
+                        </p>
+                        <div class="training-status ongoing">Ongoing</div>
+                    </div>
+                </div>
+                
+                <div class="training-card">
+                    <div class="training-icon">
+                        <i class="fab fa-salesforce"></i>
+                    </div>
+                    <div class="training-content">
+                        <h3>Fundamentals of Salesforce</h3>
+                        <p class="training-provider">TechForce Academy, Australia</p>
+                        <p class="training-duration">Aug 2024 - Sep 2024</p>
+                        <p class="training-description">
+                            Intensive training on Salesforce platform development, Apex programming, 
+                            and Lightning component development.
+                        </p>
+                        <div class="training-status completed">Completed</div>
+                    </div>
+                </div>
+                
+                <div class="training-card">
+                    <div class="training-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <div class="training-content">
+                        <h3>Red Hat Linux System Administration</h3>
+                        <p class="training-provider">Red Hat Academy</p>
+                        <p class="training-duration">2023 - 2024 (2nd Year)</p>
+                        <p class="training-description">
+                            Comprehensive training in Linux system administration, server management, 
+                            and command-line operations.
+                        </p>
+                        <div class="training-status completed">Completed</div>
+                    </div>
+                </div>
+                
+                <div class="training-card">
+                    <div class="training-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="training-content">
+                        <h3>Full Stack Development Internship</h3>
+                        <p class="training-provider">Micro IT Company (Remote)</p>
+                        <p class="training-duration">May 2025 - Jun 2025</p>
+                        <p class="training-description">
+                            Remote internship focusing on full-stack web development using modern 
+                            frameworks and best practices.
+                        </p>
+                        <div class="training-status upcoming">Upcoming</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <i class="fab fa-java"></i>
+                        <span>NPTEL (JAVA)</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fab fa-salesforce"></i>
+                        <span>Infosys Springboard</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-database"></i>
+                        <span>RHCHA</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-code"></i>
+                        <span>Code 360 by Coding Ninja (Java)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out for collaborations or just a friendly hello</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>asharamsaini2380@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91-6350395820</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Tonk, Rajasthan, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/asharam-saini/</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Asharam Saini. All rights reserved.</p>
+                    <p>Made with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/Ashu2380" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/asharam-saini/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:asharamsaini2380@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="back-to-top" id="back-to-top">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
